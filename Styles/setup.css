@@ -1,0 +1,194 @@
+*{
+    font-weight: 200;
+}
+#setup-div{
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+#setup-window{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgb(255,255,255,0.3);
+    width: 800px;
+    height: 500px;
+    border-radius: 25px;
+    z-index: 2;
+}
+#setup-title{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    color: black;
+    font-size: 30px;
+    transition: opacity 0.5s ease;
+    white-space: nowrap;
+}
+#setup-installnow-winlogo{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+    width: 35px;
+    height: 35px;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    z-index: 1;
+}
+#install-now{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1);
+    outline: none;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(158, 53, 255);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    transition: background-color 0.5s ease,
+    transform 0.5s ease,
+    opacity 0.5s ease;
+}
+#install-now:hover{
+    background-color: rgb(146, 30, 255);
+}
+#install-now:active{
+    background-color: rgb(132, 0, 255);
+    transform: translate(-50%,-50%) scale(0.9);
+}
+#input-key-title{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+    font-size: 30px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease;
+}
+#input-key-inputbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: 350px;
+    height: 50px;
+    border-radius: 15px;
+    border: 2px solid transparent;
+    font-size: 20px;
+    transition: border-color 0.5s ease,
+    opacity 0.5s ease;
+    visibility: hidden;
+    opacity: 0;
+}
+#input-key-inputbox:focus{
+    outline: none;
+    border-color: rgb(132, 0, 255);
+}
+#input-key-icon{
+    position: absolute;
+    top: 60%;
+    left: 12.5%;
+    transform: translate(-50%,-50%);
+    width: 25px;
+    height: 150px;
+    border-radius: 50px;
+    background: linear-gradient(150deg,rgb(132,0,255),rgb(173, 86, 255));
+    transition: opacity 0.5s ease;
+    visibility: hidden;
+    opacity: 0;
+}
+#input-key-icon-decoration{
+    position: absolute;
+    top: -35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: transparent;
+    border: 20px solid rgb(132,0,255);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#key-line1{
+    position: absolute;
+    top: 30%;
+    left: 200%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(90deg,rgb(132,0,255),rgb(173, 86, 255));
+    width: 70px;
+    height: 20px;
+    border-radius: 50px;
+}
+#key-line2{
+    position: absolute;
+    top: 50%;
+    left: 200%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(90deg,rgb(132,0,255),rgb(173, 86, 255));
+    width: 70px;
+    height: 20px;
+    border-radius: 50px;
+}
+#key-line3{
+    position: absolute;
+    top: 70%;
+    left: 200%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(90deg,rgb(132,0,255),rgb(173, 86, 255));
+    width: 70px;
+    height: 20px;
+    border-radius: 50px;
+}
+#install-win12ing-please-wait{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease;
+    white-space: nowrap;
+    transition: opacity 0.5s ease,
+    top 1s ease;
+}
+#install-win12-box-div{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%,-50%) scale(0.1);
+    width: 200px;
+    height: 200px;
+    background-color: rgb(211, 116, 255);
+    border-radius: 25px;
+    visibility: hidden;
+    opacity: 0;
+    transition: transform 0.5s ease,
+    opacity 0.5s ease;
+}
+#instwin-box-decoration1{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%,-50%) rotate(90deg);
+    width: 50px;
+    height: 150px;
+    background-color: rgb(191, 54, 255);
+    border-radius: 25px;
+    transition: transform 0.5s ease,
+    opacity 0.5s ease;
+}
