@@ -5,7 +5,8 @@ const inputKeyTitle = document.getElementById("input-key-title");
 const inputKeyInputBox = document.getElementById("input-key-inputbox");
 const installWin12ingPleaseWait = document.getElementById("install-win12ing-please-wait");
 const installWin12Box = document.getElementById("install-win12-box-div");
-const inputKeyIcon = document.getElementById("input-key-icon")
+const inputKeyIcon = document.getElementById("input-key-icon");
+const iNoKey = document.getElementById("i-no-key")
 function install_win12() {
     setupInstallNowWinLogo.style.opacity = "0";
     setupTitle.style.opacity = "0";
@@ -20,6 +21,8 @@ function install_win12() {
             inputKeyInputBox.style.opacity = "1";
             inputKeyIcon.style.visibility = "visible";
             inputKeyIcon.style.opacity = "1";
+            iNoKey.style.visibility = "visible";
+            iNoKey.style.opacity = "1";
         },250)
         /* installNow.style.visibility = "visible";
         installWin12ingPleaseWait.style.visibility = "visible";
