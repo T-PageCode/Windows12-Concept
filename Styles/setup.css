@@ -177,6 +177,24 @@
 #i-no-key:active{
     background-color: rgb(158, 53, 255);
 }
+#window-msg-key-warning{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgb(255,255,255,0.3);
+    width: 500px;
+    height: 300px;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 25px;
+    z-index: 2;
+    transition: opacity 0.5s ease,
+    transform 0.5s ease;
+    overflow: hidden;
+}
 #install-win12ing-please-wait{
     position: absolute;
     top: 50%;
