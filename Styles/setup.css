@@ -94,6 +94,7 @@
     opacity 0.5s ease;
     visibility: hidden;
     opacity: 0;
+    text-transform: uppercase;
 }
 #input-key-inputbox:focus{
     outline: none;
