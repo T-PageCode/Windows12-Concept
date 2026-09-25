@@ -194,9 +194,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%) scale(0.8);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    background-color: rgb(255,255,255,0.3);
+    background-color: rgba(255,255,255,0.3);
+    backdrop-filter: blur(10px);    
     width: 500px;
     height: 300px;
     visibility: hidden;
